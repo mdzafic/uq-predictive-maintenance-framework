@@ -109,7 +109,7 @@ Aleatorička komponenta (inherentni šum podataka) konzistentno dominira kroz ci
 
 ```
 /code        Jupyter notebook s kompletnom implementacijom (EDA, trening, evaluacija)
-/data        CMAPSS set podataka korišten u radu
+/data        CMAPSS set podataka
 /docs        Literatura i relevantni dokumenti
 README.md    Opis projekta
 ```
