@@ -1,5 +1,9 @@
 # Kvantifikacija nesigurnosti u modelima umjetne inteligencije: okvir za prediktivno održavanje i analizu rizika
 
+> Ovaj repozitorij implementira UQ (Uncertainty Quantification) okvir za prediktivno održavanje industrijskih sistema, razvijen u sklopu BSc završnog rada na Elektrotehničkom fakultetu Univerziteta u Sarajevu.
+
+> **Student:** Muhamed Džafić &nbsp;·&nbsp; Odsjek za računarstvo i informatiku, 2025/2026
+
 ## Motivacija
 
 Deterministički modeli za prediktivno održavanje daju samo tačkaste predikcije:
@@ -105,7 +109,7 @@ Aleatorička komponenta (inherentni šum podataka) konzistentno dominira kroz ci
 
 ```
 /code        Jupyter notebook s kompletnom implementacijom (EDA, trening, evaluacija)
-/data        Linkovi ka CMAPSS datasetu i pre-procesirani podaci
-/docs        Literatura, PDF verzija završnog rada i relevantni dokumenti
+/data        CMAPSS set podataka korišten u radu
+/docs        Literatura i relevantni dokumenti
 README.md    Opis projekta
 ```
