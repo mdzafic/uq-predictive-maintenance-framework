@@ -103,6 +103,9 @@ Aleatorička komponenta (inherentni šum podataka) konzistentno dominira kroz ci
 - **Negative Log-Likelihood (NLL)** - mjeri kvalitet probabilističke kalibracije
 - **Expected Calibration Error (ECE)** - mjeri odstupanje nominalne i opažene pokrivenosti
 
+## Vizualizacija rezultata
+![RUL predikcija s intervalima nesigurnosti](docs/images/SumarniRezultati.png)
+
 ---
 
 ## Struktura repozitorija
