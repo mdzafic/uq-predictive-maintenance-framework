@@ -109,7 +109,7 @@ Aleatorička komponenta (inherentni šum podataka, varijabilnost degradacije) ko
 - **MC Dropout i Hibridni BNN** omogućavaju aproksimativnu dekompoziciju nesigurnosti na epistemičku i aleatoričku komponentu (Deep Ensemble ne, zbog mješovite prirode svoje varijanse), što je korisno za interpretabilnost u industrijskim primjenama - visoka epistemička nesigurnost signalizira da model nije vidio dovoljno sličnih slučajeva, dok visoka aleatorička nesigurnost ukazuje na inherentnu nepredvidivost samog motora.
 - **Konformalna predikcija** uspješno kalibrira sve tri metode do pokrivenosti bliske 95%, ali ne rješava pitanje oštrine (širine) intervala - izbor UQ metode ostaje relevantan i nakon kalibracije.
 
-> **Zaključak:** Odabir "najboljeg" modela ovisi o prioritetu primjene: stabilnost tačnosti i uske intervale nudi Deep Ensemble, najvišu pokrivenost Hibridni BNN, a najjednostavniju implementaciju uz mogućnost dekompozicije nesigurnosti MC Dropout. Nalaz je konzistentan sa širom literaturom (Basora et al., 2023) koja pokazuje da ne postoji univerzalno superiorna UQ metoda za prognostiku preostalog životnog vijeka.
+> **Zaključak:** Odabir "najboljeg" modela ovisi o prioritetu primjene: stabilnost tačnosti i uske intervale nudi Deep Ensemble, najvišu pokrivenost Hibridni BNN, a najjednostavniju implementaciju uz mogućnost dekompozicije nesigurnosti MC Dropout. Nalaz je konzistentan sa širom literaturom koja pokazuje da ne postoji univerzalno superiorna UQ metoda za prognostiku preostalog životnog vijeka.
 
 ---
 
